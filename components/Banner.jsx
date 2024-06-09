@@ -3,7 +3,7 @@ import { FaWhatsapp, FaMobileAlt, FaLinkedin, FaTwitter, FaEnvelope } from 'reac
 
 const Banner = () => {
   return (
-    <div className="bg-[#001E5D] p-4">
+    <div className="bg-[#001E5D] p-6 px-7">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4 text-white">
           <a href="https://wa.me/917982190362" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
