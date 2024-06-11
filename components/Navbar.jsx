@@ -25,6 +25,7 @@ const Navbar = () => {
             <a href="/about" className="text-white text-xl font-semibold mx-4">About</a>
             <a href="/services" className="text-white text-xl font-semibold mx-4">Our Services</a>
             <a href="/research" className="text-white text-xl font-semibold mx-4">Research Report</a>
+            <a href="/careers" className="block text-white text-xl font-semibold py-2">Career</a>
             <a href="/contact" className="text-white text-xl font-semibold mx-4">Contact Us</a>
           </div>
           <div className="md:hidden">
@@ -42,6 +43,7 @@ const Navbar = () => {
           <a href="/about" className="block text-white text-xl font-semibold py-2">About</a>
           <a href="/services" className="block text-white text-xl font-semibold py-2">Our Services</a>
           <a href="/research" className="block text-white text-xl font-semibold py-2">Research Report</a>
+          <a href="/careers" className="block text-white text-xl font-semibold py-2">Career</a>
           <a href="/contact" className="block text-white text-xl font-semibold py-2">Contact Us</a>
         </div>
       )}
