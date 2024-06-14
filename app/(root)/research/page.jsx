@@ -18,9 +18,7 @@ const AboutUs = () => {
     <div className="flex flex-col min-h-screen bg-[url('/bg-building.jpeg')] bg-cover bg-no-repeat p-6">
       <div className="text-left max-w-3xl mb-8">
         <h1 className="text-6xl font-bold mb-4 text-black">Research Paper</h1>
-        <p className="text-2xl text-black leading-relaxed">
-          S&A Research is your trusted partner in achieving your business goals and visions. Established with a commitment to excellence and a passion for helping businesses thrive, we specialize in providing comprehensive business consulting services to a diverse clientele, including startups, MSMEs, corporates, and MNCs.
-        </p>
+        
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {pdfs.map((pdf, index) => (

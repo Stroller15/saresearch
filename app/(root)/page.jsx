@@ -5,9 +5,9 @@ import Banner from '../../components/Banner';
 
 const Page = () => {
   return (
-    <div className="relative h-screen">
+    <div className="relative h-screen bg-[url('/bg-building.jpeg')] bg-cover bg-no-repeat">
       <Banner className="absolute z-50" />
-      <video
+      {/* <video
         autoPlay
         muted
         loop
@@ -15,7 +15,7 @@ const Page = () => {
       >
         <source src="/main-bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <Navbar />
     </div>
   );
